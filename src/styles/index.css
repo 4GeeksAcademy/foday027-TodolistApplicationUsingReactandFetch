@@ -10,3 +10,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body {
+    background: linear-gradient(0.25turn, #4390b0, #d54810, #8416b7);
+}
+
+.trash {
+    cursor: pointer;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.form-control {
+    border: 1px dashed black;
+    width: 300px;
+    background-color: greenyellow;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 8px 0;
+}
+
+.list-style {
+    box-shadow: 3px 5px rgb(190, 74, 74), -1em 0 .4em black;
+}
