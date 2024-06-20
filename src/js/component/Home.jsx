@@ -1,12 +1,12 @@
 import React from "react";
-import TodoList from './TodoList.jsx';
+import App from './App.jsx';
 
 
 
 const Home = () => {
 
     return (
-        <TodoList />
+        <App />
     )
 }
 export default Home;
