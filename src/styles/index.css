@@ -13,11 +13,12 @@
 
 
 body {
-    background: linear-gradient(0.25turn, #4390b0, #d54810, #8416b7);
+    background-color: azure;
 }
 
 .trash {
     cursor: pointer;
+    
 }
 
 .edit {
@@ -25,9 +26,10 @@ body {
 }
 
 .form-control {
-    border: 1px dashed black;
-    width: 300px;
-    background-color: greenyellow;
+    
+    border: 7px solid rgb(199, 56, 199);
+    width: 350px;
+    background-color: rgb(213, 39, 39);
     margin: auto;
     border-radius: 8px;
 }
@@ -39,5 +41,22 @@ body {
 }
 
 .list-style {
-    box-shadow: 3px 5px rgb(190, 74, 74), -1em 0 .4em black;
+    box-shadow: 3px 1px rgb(218, 213, 213), -1em 0 .4em black;
 }
+
+.list {
+    background-color: aquamarine;
+    margin-bottom: 5px !important;
+}
+
+input {
+    background-color: purple;
+}
+
+.main {
+ width: 350px;
+ margin: auto;
+ padding-top: 20px;
+ 
+}
+
